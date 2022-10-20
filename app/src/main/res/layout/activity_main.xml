@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+
+        android:id="@+id/nsv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+
+                android:id="@+id/mcv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginStart="@dimen/common_margin"
+                android:layout_marginEnd="@dimen/common_margin"
+                android:visibility="visible"
+                android:clickable="true"
+                android:focusable="true">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:id="@+id/cl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+
+                        android:id="@+id/iv"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/card_imagen_size"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@android:color/holo_purple"/>
+
+                    <TextView
+
+                        android:id="@+id/tvNombre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nombreCC_MN4"
+                        app:layout_constraintBottom_toTopOf="@+id/tvDescripcion"
+                        app:layout_constraintStart_toStartOf="@+id/tvDescripcion"/>
+
+                    <TextView
+
+                        android:id="@+id/tvDescripcion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/descripcionCC_MN4"
+                        app:layout_constraintStart_toStartOf="@+id/iv"
+                        app:layout_constraintBottom_toBottomOf="@+id/iv"/>
+
+                    <TextView
+
+                        android:id="@+id/tvN_Tiendas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        app:layout_constraintEnd_toEndOf="@+id/iv"
+                        app:layout_constraintBottom_toBottomOf="@+id/iv"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+
+                android:id="@+id/mcv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginStart="@dimen/common_margin"
+                android:layout_marginEnd="@dimen/common_margin"
+                android:visibility="visible"
+                android:clickable="true"
+                android:focusable="true">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:id="@+id/cl2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+
+                        android:id="@+id/iv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/card_imagen_size"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@android:color/holo_purple"/>
+
+                    <TextView
+
+                        android:id="@+id/tvNombre2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nombreCC_Bonaire"
+                        app:layout_constraintBottom_toTopOf="@+id/tvDescripcion2"
+                        app:layout_constraintStart_toStartOf="@+id/tvDescripcion2"/>
+
+                    <TextView
+
+                        android:id="@+id/tvDescripcion2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/descripcionCC_Bonaire"
+                        app:layout_constraintStart_toStartOf="@+id/iv2"
+                        app:layout_constraintBottom_toBottomOf="@+id/iv2"/>
+
+                    <TextView
+
+                        android:id="@+id/tvN_Tiendas2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        app:layout_constraintEnd_toEndOf="@+id/iv2"
+                        app:layout_constraintBottom_toBottomOf="@+id/iv2"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+
+                android:id="@+id/mcv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginStart="@dimen/common_margin"
+                android:layout_marginEnd="@dimen/common_margin"
+                android:visibility="visible"
+                android:clickable="true"
+                android:focusable="true">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:id="@+id/cl3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+
+                        android:id="@+id/iv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/card_imagen_size"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@android:color/holo_purple"/>
+
+                    <TextView
+
+                        android:id="@+id/tvNombre3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nombreCC_Arena"
+                        app:layout_constraintBottom_toTopOf="@+id/tvDescripcion3"
+                        app:layout_constraintStart_toStartOf="@+id/tvDescripcion3"/>
+
+                    <TextView
+
+                        android:id="@+id/tvDescripcion3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/descripcionCC_Arena"
+                        app:layout_constraintStart_toStartOf="@+id/iv3"
+                        app:layout_constraintBottom_toBottomOf="@+id/iv3"/>
+
+                    <TextView
+
+                        android:id="@+id/tvN_Tiendas3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        app:layout_constraintEnd_toEndOf="@+id/iv3"
+                        app:layout_constraintBottom_toBottomOf="@+id/iv3"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+
+                android:id="@+id/mcv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_margin"
+                android:layout_marginStart="@dimen/common_margin"
+                android:layout_marginEnd="@dimen/common_margin"
+                android:visibility="visible"
+                android:clickable="true"
+                android:focusable="true">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+
+                    android:id="@+id/cl4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+
+                        android:id="@+id/iv4"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/card_imagen_size"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:background="@android:color/holo_purple"/>
+
+                    <TextView
+
+                        android:id="@+id/tvNombre4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nombreCC_Aqua"
+                        app:layout_constraintBottom_toTopOf="@+id/tvDescripcion4"
+                        app:layout_constraintStart_toStartOf="@+id/tvDescripcion4"/>
+
+                    <TextView
+
+                        android:id="@+id/tvDescripcion4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/descripcionCC_Aqua"
+                        app:layout_constraintStart_toStartOf="@+id/iv4"
+                        app:layout_constraintBottom_toBottomOf="@+id/iv4"/>
+
+                    <TextView
+
+                        android:id="@+id/tvN_Tiendas4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        app:layout_constraintEnd_toEndOf="@+id/iv4"
+                        app:layout_constraintBottom_toBottomOf="@+id/iv4"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

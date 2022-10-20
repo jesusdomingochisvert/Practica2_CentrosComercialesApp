@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Practica2</string>
+    <string name="nombreCC_MN4">Nombre Centro Comercial</string>
+    <string name="descripcionCC_MN4">Direccion Centro Comercial</string>
+    <string name="nombreCC_Bonaire">Nombre Centro Comercial</string>
+    <string name="descripcionCC_Bonaire">Direccion Centro Comercial</string>
+    <string name="nombreCC_Arena">Nombre Centro Comercial</string>
+    <string name="descripcionCC_Arena">Direccion Centro Comercial</string>
+    <string name="descripcionCC_Aqua">Direccion Centro Comercial</string>
+    <string name="nombreCC_Aqua">Nombre Centro Comercial</string>
+    <string name="lista">Lista</string>
+    <string name="NombreTienda">Nombre Tienda</string>
+</resources>
